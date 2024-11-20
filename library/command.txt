@@ -1,0 +1,7 @@
+python nb.py -cid #ChainId -pid #PrivateKeyId -ca #ContractAddress
+
+python wb.py -cid #ChainId -pid #PrivateKeyId
+
+python batchto.py -cid #ChainId -pid #PrivateKeyId -ca #ContractAddress -am #Amount
+
+python mint.py -cid #ChainId -pid #PrivateKeyId -to #ContractAddress -am #Amount -code #Code -gas #Gas 
